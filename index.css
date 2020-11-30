@@ -1,20 +1,25 @@
 html {
   background-color: grey;
   font: arial, sans-serif;
+  font-size: 18px;
 }
 .welcome {
   display: block;
   width: 500px;
-  height: 700px;
-  border: solid 1px black;
+  height: auto;
+  border: solid 1px white;
   margin: 50px auto;
   background-color: white;
-  box-shadow: 5px 10px;
+  border-radius: 10px;
 }
 
 h1 {
   text-align: center;
   margin: 25px 0;
+}
+
+form {
+  /* border: solid 1px black; */
 }
 
 label {
@@ -25,4 +30,42 @@ label {
 input {
   margin: 15px 0 0 25px;
   line-height: 1.5;
+}
+
+.button {
+  background-color: #2445EB;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  width: 90%;
+  margin: 0 5%;
+  border-radius: 10px;
+}
+
+.links {
+  margin: 0 auto 25px auto;
+  line-height: 1.5;
+  width: 285px;
+  /* border: solid 1px black; */
+}
+
+#margin-link{
+  margin-right: 15px;
+}
+
+hr {
+  width: 95%;
+  text-align: center;
+}
+
+#signup
+{
+  margin-top: 25px;
+  margin-bottom: 25px;
+  background-color: #917211;
 }
