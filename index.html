@@ -6,8 +6,7 @@
     <link href="./index.css" rel="stylesheet">
   </head>
   <body>
-    <!-- <div class="welcome">
-      <h1>Log In!</h1>
+    <div class="welcome">
       <form class="login-form" action="" method="post">
         <label for="username">Username:</label>
         <br>
@@ -20,7 +19,7 @@
         <br>
         <br>
         <br>
-        <input type="button" name="submit" value="Login" class="button">
+        <input type="button" id="login" value="Login" class="button">
         <br>
         <br>
         <div class="links">
@@ -29,20 +28,28 @@
         </div>
       </form>
       <hr>
-      <input type="button" name="signup" value="Sign Up" class="button" id="signup">
-    </div> -->
+      <input type="button" id="signup" value="Sign Up" class="button" id="signup">
+    </div>
     <div class="signup">
-      <h1>Welcome!</h1>
-      <h3>Enter Your Information To Sign Up</h3>
+      <h1>Sign Up</h1>
+      <h3>It's Quick and Easy</h3>
+      <hr>
       <form class="signup-form" action="" method="post">
-        <label for="username">Email Address:</label>
+        <label for="firstname" id="firstname-label">First Name:</label>
+        <label for="lastname">Last Name:</label>
         <br>
-        <input type="text" name="username" id="username" size="50">
+        <input type="text" name="firstname" id="firstname" size="50">
+        <input type="text" name="lastname" id="lastname" size="50">
         <br>
         <br>
-        <label for="password">Confirm Email:</label>
+        <label for="email">Email Address:</label>
         <br>
-        <input type="text" name="password" id="password" size="50">
+        <input type="text" name="email" id="email" size="50">
+        <br>
+        <br>
+        <label for="email">Confirm Email:</label>
+        <br>
+        <input type="text" name="email" id="email" size="50">
         <br>
         <br>
         <label for="username">Username:</label>
@@ -50,21 +57,24 @@
         <input type="text" name="username" id="username" size="50">
         <br>
         <br>
-        <label for="username">Password:</label>
+        <label for="password">Password:</label>
         <br>
-        <input type="text" name="username" id="username" size="50">
-        <br>
-        <br>
-        <label for="username">Confirm Password:</label>
-        <br>
-        <input type="text" name="username" id="username" size="50">
+        <input type="text" name="password" id="password" size="50">
         <br>
         <br>
+        <label for="password">Confirm Password:</label>
         <br>
-        <input type="button" name="submit" value="Sign Up" class="button">
+        <input type="text" name="password" id="password" size="50">
         <br>
         <br>
+        <input type="button" id="submit" value="Sign Up" class="button">
+        <br>
+        <br>
+        <input type="button" id="back" value="back" class="button">
       </form>
     </div>
   </body>
+  <script src="./index.js">
+
+  </script>
 </html>

@@ -18,19 +18,23 @@ html {
 }
 
 h1 {
-  text-align: center;
-  margin-top: 25px;
-  margin-bottom: -10px;
+  text-align: left;
+  /* margin-top: 25px; */
+  margin: 15px 0 -10px 25px;
+  /* margin-bottom: -10px; */
   /* border: solid 1px black; */
 }
 
 h3 {
-  text-align: center;
+  text-align: left;
+  margin-left: 25px;
+  margin-bottom: -5px;
   /* border: solid 1px black; */
 }
 
 form {
   /* border: solid 1px black; */
+  margin-top: 15px;
 }
 
 label {
@@ -93,5 +97,13 @@ hr {
   margin: 50px auto;
   background-color: white;
   border-radius: 10px;
-  z-index: 1;
+  display: block;
+}
+#firstname-label {
+  margin-right: 112px;
+}
+
+#firstname, #lastname
+{
+  width: 40%;
 }
