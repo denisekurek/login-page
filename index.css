@@ -81,8 +81,7 @@ hr {
   text-align: center;
 }
 
-#signup
-{
+#signup {
   margin-top: 25px;
   margin-bottom: 25px;
   background-color: #917211;
@@ -100,10 +99,14 @@ hr {
   display: block;
 }
 #firstname-label {
-  margin-right: 112px;
+  margin-right: 102px;
 }
 
 #firstname, #lastname
 {
   width: 40%;
+}
+
+#back {
+  margin-bottom: 25px;
 }
