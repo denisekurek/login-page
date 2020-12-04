@@ -72,7 +72,7 @@ input {
   /* border: solid 1px black; */
 }
 
-#margin-link{
+#forgotUserName{
   margin-right: 15px;
 }
 
@@ -83,7 +83,7 @@ hr {
 
 #signup {
   margin-top: 25px;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
   background-color: #917211;
 }
 
@@ -108,5 +108,6 @@ hr {
 }
 
 #back {
-  margin-bottom: 25px;
+  margin-bottom: 20px;
+  background-color: #917211;
 }
