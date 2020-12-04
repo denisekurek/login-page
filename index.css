@@ -46,7 +46,7 @@ label {
 input {
   margin: 0 0 0 5%;
   line-height: 1.5;
-  width: 90%
+  width: 85%
   /* border: solid 1px red; */
 }
 
@@ -88,7 +88,7 @@ hr {
 }
 
 .signup {
-  display: block;
+  display: none;
   position: relative;
   width: 500px;
   height: auto;
@@ -96,15 +96,15 @@ hr {
   margin: 50px auto;
   background-color: white;
   border-radius: 10px;
-  display: block;
 }
+
 #firstname-label {
-  margin-right: 102px;
+  margin-right: 110px;
 }
 
 #firstname, #lastname
 {
-  width: 40%;
+  width: 37.5%;
 }
 
 #back {
