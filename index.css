@@ -2,7 +2,7 @@ html {
   background-color: grey;
   font-family: Arial, Sans-serif;
   font-size: 18px;
-  font-variant: small-caps;
+  /* font-variant: small-caps; */
 }
 
 .welcome {
@@ -68,8 +68,10 @@ input {
 .links {
   margin: 0 auto 25px auto;
   line-height: 1.5;
-  width: 360px;
+  width: auto;
+  text-align: center;
   /* border: solid 1px black; */
+  font-size: 14px;
 }
 
 #forgotUserName{
@@ -99,12 +101,18 @@ hr {
 }
 
 #firstname-label {
-  margin-right: 110px;
+  /* border: solid 1px black; */
+  padding-right: 19.5%;
 }
 
-#firstname, #lastname
-{
+#lastname-label {
+  /* border: solid 1px red; */
+  padding-right: 19.5%
+}
+
+#firstname, #lastname {
   width: 37.5%;
+  max-width: 180px;
 }
 
 #back {
