@@ -27,11 +27,23 @@ function goBack() {                   //Hides signup form for login form
 };
 
 function getUsername() {
-  alert('Forgot Username');
+  let email = prompt("Please enter your email address assocciated with your account:","");
+  if (email == null || email == "") {
+    alert("No email detected");
+  }
+  else {
+    alert(`An email has been sent to ${email}`);
+  }
 };
 
 function resetPassword() {
-  alert('Reset Password');
+  let user = prompt("Please enter your username assocciated with your account:","");
+  if (user == null || user == "") {
+    alert("No username detected");
+  }
+  else {
+    alert('An email to reset your password has been sent to your assocciated email');
+  }
 };
 
 
