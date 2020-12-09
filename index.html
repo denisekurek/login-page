@@ -35,12 +35,21 @@
       <h3>It's Quick and Easy</h3>
       <hr>
       <form class="signup-form" action="" method="post">
-        <label for="firstname" id="firstname-label">First Name:</label>
+        <table>
+          <tr>
+            <td><p id="label">First Name:</p></td>
+            <td><p id="label">Last Name:</p></td>
+          </tr>
+          <tr>
+            <td><input type="text" name="firstname" id="firstname" size="50" required></td>
+            <td><input type="text" name="lastname" id="lastname" size="50" required></td>
+          </tr>
+        </table>
+        <!-- <label for="firstname" id="firstname-label">First Name:</label>
         <label for="lastname" id="lastname-label">Last Name:</label>
         <br>
         <input type="text" name="firstname" id="firstname" size="50" required>
-        <input type="text" name="lastname" id="lastname" size="50" required>
-        <br>
+        <input type="text" name="lastname" id="lastname" size="50" required> -->
         <br>
         <label for="email">Email Address:</label>
         <br>

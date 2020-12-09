@@ -100,22 +100,30 @@ hr {
   border-radius: 10px;
 }
 
-#firstname-label {
-  /* border: solid 1px black; */
-  padding-right: 19.5%;
-}
-
-#lastname-label {
-  /* border: solid 1px red; */
-  padding-right: 19.5%
-}
-
 #firstname, #lastname {
-  width: 37.5%;
-  max-width: 180px;
+  width: 75%;
+  margin-left: 0;
+  /* max-width: 200px; */
 }
 
 #back {
   margin-bottom: 20px;
   background-color: #917211;
+}
+
+table {
+  /* border: solid 1px black; */
+  border-collapse: collapse;
+  margin-left: 25px;
+}
+
+td {
+  /* border: solid 1px black; */
+  text-align: justify;
+}
+
+#label {
+  margin: 0 0 0 0;
+  /* border: solid 1px red; */
+  max-width: 200px;
 }
