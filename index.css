@@ -6,7 +6,7 @@ html {
 }
 
 .welcome {
-  display: none;
+  display: block;
   position: relative;
   width: 500px;
   height: auto;
@@ -90,7 +90,7 @@ hr {
 }
 
 .signup {
-  display: block;
+  display: none;
   position: relative;
   width: 500px;
   height: auto;
